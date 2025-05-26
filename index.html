@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Spotify - Web Player: Music for everyone</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="icon" href="./image/logo.png">
+       
+    </head>
+    <body>
+        <div class="main_container">
+            <div class="main_nav">
+                <div class="logo"><img  src="./image/logo.png" width="32px " ></div>
+                <div class="left_nav">
+                    <div class="icon_bgdiv"><i class="fa-solid fa-house home_icon"></i></div>
+                    <div class="input_div" tabindex="0">
+                        <i class="fa-solid fa-magnifying-glass search_icon" ></i> 
+                        <input type="text" class="input_text" placeholder="What do you want to play?" >
+                        <span>|</span>
+                        <i class="fa-solid fa-rectangle-list browes_icon"></i>
+                    </div>
+                    
+                </div>
+                <div class="right_nav">
+                    <button class="badge">Explore Premium</button>
+                    <button class="badge dowm_badge"><i class="fa-solid fa-circle-arrow-down "></i> Install App</button>
+                    <i class="fa-regular fa-bell bell_icon"></i>
+                    <i class="fa-solid fa-users-line friends_icon"></i>
+                    <div class="icon_bgdiv user_div"><i class="fa-regular fa-circle-user user_icon"></i></div>
+                </div>
+            </div>
+            <div class="sidebar">
+                <div class="library">
+                    <div class="lib_img">
+                        <img src="./image/library_icon.png">
+                        <a href="#">Your Library</a>
+                        <div class="message">Collapse Your Library</div>
+                    </div>
+                    <button class="lib_badge">
+                        <i class="fa-solid fa-plus"></i>
+                        <span class="btn_text">Create</span>
+                        <div class="message">Create a playlist,folder,or Jam</div>
+                    </button>
+                </div>
+                <div class="library_boxes">     
+                    <div class="box">
+                        <span class="box_p1">Create your first playlist</span> <br>
+                        <span class="blox_p2">It's easy, we'll help you</span><br>
+                        <button class="box_badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <span class="box_p1">Let's find some podcasts to follow</span> <br>
+                        <span class="blox_p2">We'll keep you updated on new episodes </span><br>
+                        <button class="box_badge">Browes podcasts</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="main_contain">
+                <div class="catogary_head">
+                    <a href="#" class="all ">All</a>
+                    <a href="#" class="music ">Music</a>
+                    <a href="#" class="podcast ">Podcast</a>
+                </div>
+                <div class="album_container">
+                <div class="feture_chart">
+                    <a href="#"><h2>Feture's Chart</h2></a>
+                    <div class="music_cards">
+                        <div class="card">
+                            <div class="card_img">
+                                <img src="./image/card1img.jpeg" class="main_img">
+                                <img src="./image/cardcontrol.png" class="play_img">
+                            </div>
+                            <span class="card_dis">Your daily update of the most played...</span>
+                        </div>  
+                        <div class="card">
+                            <div class="card_img">
+                                <img src="./image/card5img.jpeg" class="main_img">
+                                <img src="./image/cardcontrol.png" class="play_img">
+                            </div>
+                            <span class="card_dis">Your weekly update of the most played...</span>
+                        </div>
+                        <div class="card">
+                            <div class="card_img">
+                                <img src="./image/card10.png" class="main_img">
+                                <img src="./image/cardcontrol.png" class="play_img">
+                            </div>
+                            <span class="card_dis">Your daily update of the most played...</span>
+                        </div>
+                        <div class="card">
+                            <div class="card_img">
+                                <img src="./image/card8.png "class="main_img">
+                                <img src="./image/cardcontrol.png" class="play_img">
+                            </div>
+                            <span class="card_dis">Your daily update of the most viral tracks...</span>
+                        </div>
+                        <div class="card">
+                            <div class="card_img">
+                                <img src="./image/card6img.jpeg" class="main_img">
+                                <img src="./image/cardcontrol.png" class="play_img">
+                            </div>
+                            <span class="card_dis">Your weekly update of the most played...</span>
+                        </div>
+                        <div class="card">
+                            <div class="card_img">
+                                <img src="./image/card9.png" class="main_img">
+                                <img src="./image/cardcontrol.png" class="play_img">
+                            </div>
+                            <span class="card_dis">Your daily update of the most viral tracks...</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="feture_chart indian_song">
+                    <a href="#"><h2>India's Best</h2></a>
+                    <div class="music_cards">
+                        <div class="card">
+                            <div class="card_img">
+                                <img src="./image/card11.png" class="main_img">
+                                <img src="./image/cardcontrol.png" class="play_img">
+                            </div>
+                            <span class="card_dis">Check out songs Dehli is vibing to!</span>
+                        </div>  
+                        <div class="card">
+                            <div class="card_img">
+                                <img src="./image/card12.png" class="main_img">
+                                <img src="./image/cardcontrol.png" class="play_img">
+                            </div>
+                            <span class="card_dis">Check out songs Gujarat is vibing to!</span>
+                        </div>
+                        <div class="card">
+                            <div class="card_img">
+                                <img src="./image/card3img.jpeg" class="main_img">
+                                <img src="./image/cardcontrol.png" class="play_img">
+                            </div>
+                            <span class="card_dis">Your daily update of the most played...</span>
+                        </div>
+                        <div class="card">
+                            <div class="card_img">
+                                <img src="./image/card13.png"class="main_img">
+                                <img src="./image/cardcontrol.png" class="play_img">
+                            </div>
+                            <span class="card_dis">The finest of Telugu music from the past10...</span>
+                        </div>
+                        <div class="card">
+                            <div class="card_img">
+                                <img src="./image/card4img.jpeg" class="main_img">
+                                <img src="./image/cardcontrol.png" class="play_img">
+                            </div>
+                            <span class="card_dis">Feel the Power of Vijay Thalapathy's Music...</span>
+                        </div>
+                        <div class="card">
+                            <div class="card_img">
+                                <img src="./image/card14.png" class="main_img">
+                                <img src="./image/cardcontrol.png" class="play_img">
+                            </div>
+                            <span class="card_dis">Best of the Indian Indie scene Cover- Kushagra</span>
+                        </div>
+                        <div class="card">
+                            <div class="card_img">
+                                <img src="./image/card15.png" class="main_img">
+                                <img src="./image/cardcontrol.png" class="play_img">
+                            </div>
+                            <span class="card_dis">An exclusive collection of kannada hit song...</span>
+                        </div>
+                        <div class="card">
+                            <div class="card_img">
+                                <img src="./image/card16.png" class="main_img">
+                                <img src="./image/cardcontrol.png" class="play_img">
+                            </div>
+                            <span class="card_dis">Bollywood Central,jab baje to seedha dil ke...</span>
+                        </div>
+                        <div class="card">
+                            <div class="card_img">
+                                <img src="./image/card17.png" class="main_img">
+                                <img src="./image/cardcontrol.png" class="play_img">
+                            </div>
+                            <span class="card_dis">Fitnes collection of Malayalam Music from...</span>
+                        </div>
+                                
+                    </div>
+                </div>
+                <div class="feture_chart">
+                    <a href="#"><h2>Shows to try</h2></a>
+                    <div class="music_cards">
+                        <div class="show_card">
+                            <div class="card_img">
+                                <img src="./image/card19.png" class="main_img">
+                                <img src="./image/cardcontrol.png" class="play_img">
+                            </div>
+                            <div class="show_title_dis">
+                                 <span class="show_title">दास्तान खौप की</span>
+                                 <span class="show_dis">Dainik Jagarn</span>
+                            </div>
+                        </div>  
+                        <div class="show_card">
+                            <div class="card_img">
+                                <img src="./image/card20.png" class="main_img">
+                                <img src="./image/cardcontrol.png" class="play_img">
+                            </div>
+                            <div class="show_title_dis">
+                                 <span class="show_title">Mahabharat</span>
+                                 <span class="show_dis">Fever FM-HT Smartcast</span>
+                            </div>
+                        </div>
+                        <div class="show_card">
+                            <div class="card_img">
+                                <img src="./image/card21.png" class="main_img">
+                                <img src="./image/cardcontrol.png" class="play_img">
+                            </div>
+                            <div class="show_title_dis">
+                                 <span class="show_title">Funny call Recording</span>
+                                 <span class="show_dis">Nikhil Paul</span>
+                            </div>
+                        </div>
+                        <div class="show_card">
+                            <div class="card_img">
+                                <img src="./image/card22.png"class="main_img">
+                                <img src="./image/cardcontrol.png" class="play_img">
+                            </div>
+                            <div class="show_title_dis">
+                                 <span class="show_title">SHRIMAD BHAGWADGITA</span>
+                                 <span class="show_dis">Amit Wadhwa</span>
+                            </div>
+                        </div>
+                        <div class="show_card">
+                            <div class="card_img">
+                                <img src="./image/card23.png" class="main_img">
+                                <img src="./image/cardcontrol.png" class="play_img">
+                            </div>
+                            <div class="show_title_dis">
+                                 <span class="show_title">Your daily updat</span>
+                                 <span class="show_dis">Your daily updat</span>
+                            </div>
+                        </div>
+                        <div class="show_card">
+                            <div class="card_img">
+                                <img src="./image/card24.png" class="main_img">
+                                <img src="./image/cardcontrol.png" class="play_img">
+                            </div>
+                            <div class="show_title_dis">
+                                 <span class="show_title">Your daily updat</span>
+                                 <span class="show_dis">Your daily updat</span>
+                            </div>
+                        </div>    
+                        <div class="show_card">
+                            <div class="card_img">
+                                <img src="./image/card18.png" class="main_img">
+                                <img src="./image/cardcontrol.png" class="play_img">
+                            </div>
+                            <div class="show_title_dis">
+                                 <span class="show_title">Your daily updat</span>
+                                 <span class="show_dis">Your daily updat</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="main_foot">
+                   <div class="footer_manu">
+                        <div class="nav_col">
+                            <div class="col1 col ">
+                                <ul>
+                                    <li><span>Company</span></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Jobs</a></li>
+                                    <li><a href="#">For the Record</a></li>
+                                </ul>
+                            </div>
+                            <div class="col2 col">
+                                <ul>
+                                    <li><span>Communities</span></li>
+                                    <li><a href="#">For Artists</a></li>
+                                    <li><a href="#">Developers</a></li>
+                                    <li><a href="#">Advertising</a></li>
+                                    <li><a href="#">Investors</a></li>
+                                    <li><a href="#">Vendors</a></li>
+                                </ul>
+                            </div>
+                            <div class="col3 col ">
+                                <ul>
+                                    <li><span>Useful links</span></li>
+                                    <li><a href="#">Spport</a></li>
+                                    <li><a href="#">Free Mobile App</a></li>
+                                </ul>
+                            </div>
+                            <div class="col4 col ">
+                                <ul>
+                                    <li><span>Spotify Plans</span></li>
+                                    <li><a href="#">Primium Individual</a></li>
+                                    <li><a href="#">Premium Duo</a></li>
+                                    <li><a href="#">Premium Family</a></li>
+                                    <li><a href="#">Premium Student</a></li>   
+                                    <li><a href="#">Spotify Free</a></li>                            
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="social_col">
+                            <div class="social_iconbg"><i class="fa-brands fa-instagram"></i></div>
+                            <div class="social_iconbg"><i class="fa-brands fa-twitter"></i></div>
+                            <div class="social_iconbg"><i class="fa-brands fa-facebook"></i></div>
+                        </div>
+                   </div> 
+                   <div class="copy_right">
+                        <div class="policy_term">
+                            <span>Legal</span>
+                            <span>Safety & Privacy Center</span>
+                            <span>Privacy Policy</span>
+                            <span>Cookies</span>
+                            <span>about Ads</span>
+                            <span>Accessibility</span>
+                        </div>
+                        <div class="rigths_name"><span><i class="fa-regular fa-copyright"></i> 2025 Spotify AB</span></div>
+                   </div>
+                    
+                </div>
+                
+                  
+            </div>
+            
+            <div class="music_player"> 
+                <div class="music_smalbum">
+                    <div><img src="./image/card12.png" width="50px"></div>
+                        <div class="smalbum_dis">
+                            <a href="#" class="song_title">Water</a><br>
+                            <a href="#">Dilgit Dostani,</a>
+                            <a href="#">MixSingh,</a>
+                            <a href="#">Raj Ranjodh</a>
+                        </div>
+                        <div><i class="fa-solid fa-circle-plus"></i></div>
+                </div>
+                <div class="music_control">
+                    <div class="contoll_icon">
+                        <img class="cont_icon" src="./image/player_icon1.png">
+                        <img class="cont_icon" src="./image/player_icon2.png">
+                        <img class="playbt" src="./image/player_icon3.png">
+                        <img class="cont_icon" src="./image/player_icon4.png">
+                        <img class="cont_icon" src="./image/player_icon5.png">
+                    </div>
+                    <div class="play_bar">
+                        <span>00:00</span>
+                        <input type="range" class="pro_bar" min="0" max="100" value="50">
+                        <span>02:48</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
